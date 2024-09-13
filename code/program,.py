@@ -27,3 +27,16 @@ Example:
 '''
 
 # TODO: Write code
+from packaging import parse_packaging, calc_total_units, get_unit
+input_file = 'data/packaging.txt'
+with open(input_file, 'r') as f:
+    lines = f.readlines()
+
+output = []
+for line in lines:
+    package = parse_packaging(line)
+    total_units = calc_total_units(package)
+    unit = get_unit(package)
+    print(f'{line.strip()} => total units: {total_units} {unit}')
+    output.append(package)
+print(output)

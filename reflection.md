@@ -22,4 +22,4 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
-
+Right before class ended, professor mentioned that this would be easier than the previous assignment. I'm not sure I agree. All I could think about was the leetcode practice I did over the summer. There were times during the assignment that I felt like there was a way to make the code more consice, but I wasn't sure how I could do so. I was surprised to have to use readlines to get the packaging text into program.py, but I am glad chatgpt could come to the rescue. I feel that github copilot is making my life a lot easier, but I fear that it may not allow for me to truly learn all that the class has to offer. There are times I have considered turning it off so I can hardcode (even though I know that's not what coding is about these days)
