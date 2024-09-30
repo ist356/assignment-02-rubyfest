@@ -26,7 +26,7 @@ Example:
     ]    
 '''
 
-# TODO: Write code
+# Code is here
 from packaging import parse_packaging, calc_total_units, get_unit
 input_file = 'data/packaging.txt'
 with open(input_file, 'r') as f:
